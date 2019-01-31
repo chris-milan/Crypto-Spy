@@ -1,0 +1,10 @@
+.dashboardContainer {
+    margin-top: 80px;
+    margin-left: 50px
+}
+
+.spinner {
+    position: fixed;
+    top: 35%;
+    left: 45%;
+}

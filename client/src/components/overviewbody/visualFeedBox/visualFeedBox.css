@@ -1,0 +1,30 @@
+.seeWhispersHeader {
+  font-size: 45px;
+
+}
+
+.whisperBox {
+  background-color: rgb(198, 198, 198);
+  background-color: transparent;
+  height: 420px;
+  width: 98%;
+  margin-bottom: 30px;
+  overflow: auto;
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+}
+
+.individualWhisper {
+  color:rgb(34, 55, 133);
+  border-style: solid black;
+  border-width: .5px;
+  width: 400px;
+  background-color: rgb(198, 195, 195, .5);
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 5px;
+  border-radius: 15px;
+  background-image: url("/assets/light_alu.png");
+  background-blend-mode: color-dodge
+}

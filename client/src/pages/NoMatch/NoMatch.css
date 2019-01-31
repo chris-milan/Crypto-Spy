@@ -1,0 +1,14 @@
+.NoMatch {
+    color: white;
+    letter-spacing: 1.9px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    font-size: 60px;
+    position: fixed;
+    top: 40%;
+    left: 20%;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: -100px;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+}

@@ -1,0 +1,56 @@
+.overviewBody {
+  margin-bottom: 80px;
+  background-image: url("/assets/light_alu.png");
+  opacity:.9;
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+}
+
+.overViewCoinName {
+  margin-top: 25px;
+  font-size: 34px;
+  color: rgb(34, 55, 133);
+  text-shadow: rgba(142, 199, 255, 0.9) 2px 2px 3px;
+}
+
+.seeChartHeader {
+  font: normal normal 600 normal 13px / 14.95px;
+  margin: -65px 0px 0px 0px;;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: rgb(202, 202, 202);
+  text-shadow: rgba(142, 199, 255, 0.9) 1.5px 2px 2.5px;
+  cursor: pointer;
+  transition: all 1.3s ease 0s;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+}
+
+.seeChartHeader:hover {
+  color: rgb(34, 55, 133);
+  text-shadow: rgba(142, 199, 255, 0.4) 0px 0px 0px;
+}
+
+.seeWhispersHeader {
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: rgb(143, 143, 143);
+  text-shadow: rgba(142, 199, 255, 0.9) 2px 3px 2px;
+  cursor: pointer;
+  transition: all 1.3s ease 0s;
+}
+
+.TheChart {
+  margin-bottom: 50px
+}
+
+.seeWhispersHeader:hover {
+  color: rgb(34, 55, 133);
+  text-shadow: rgba(142, 199, 255, 0.4) 0px 0px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .seeWhispersHeader, .col-8, .nav-link {
+   font-size: 10px
+  }
+}

@@ -1,0 +1,84 @@
+header {
+  margin-top: 20px;
+}
+
+.leftFloat {
+  float: left;
+}
+
+.rightFloat {
+  float: right;
+}
+
+.logo {
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px rgb(150, 150, 150), 0 0 20px rgb(150, 150, 150), 0 0 30px rgb(150, 150, 150), 0 0 45px rgb(150, 150, 150), 0 0 65px rgb(150, 150, 150);
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+  cursor: pointer
+}
+
+.logoLine {
+  border-top: 1px solid white;
+  width: 300px;
+  margin-top: -7px;
+  color: #fff;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0), 0 0 45px rgb(0, 0, 0), 0 0 65px rgb(0, 0, 0);
+}
+
+.tagline {
+  margin-top: 6px;
+  margin-bottom: -35px;
+  letter-spacing: .15em;
+}
+
+.headerButtons {
+  font: normal normal 600 normal 13px / 14.95px;
+  display: flex;
+  margin: 25px 45px 2px 0px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: rgb(161, 161, 161);
+  text-shadow: rgba(142, 199, 255, 0.9) 5px 5px 5px;
+  transition: all 1.3s ease 0s;
+}
+
+a {
+  color: inherit
+}
+
+a:hover {
+  text-decoration: none;
+  text-shadow: rgba(142, 199, 255, 0.4) 0px 0px 0px;
+}
+
+.rounded-circle {
+  margin-right: 5px
+}
+
+@media screen and (max-width: 1000px) {
+  .rightFloat {
+    margin-right: -40px
+  }
+}
+
+@media screen and (max-width: 414px) {
+  header {
+    margin-top: 20px;
+    margin-bottom: -60px;
+    text-align: center
+  }
+  .rightFloat {
+    margin-right: 20px
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .rightFloat {
+    margin-right: -10px;
+  }
+}
+
+
+
